@@ -26,3 +26,10 @@ player
   .catch(function (error) {
     console.log('An error occurred while setting the color');
   });
+
+player.setColor('#45a247').then(function (color) {
+    // the color that was set
+}).catch(function (error) {
+    // an error occurred setting the color
+});
+
